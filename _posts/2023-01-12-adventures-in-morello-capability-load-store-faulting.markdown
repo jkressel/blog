@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Adventures In Morello: Disabling Capability Load And Store Faulting"
-author: john_kressel
+author: john
 date:   2023-01-12
 ---
 
