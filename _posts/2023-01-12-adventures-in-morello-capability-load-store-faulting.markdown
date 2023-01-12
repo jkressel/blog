@@ -25,7 +25,7 @@ Store faulting can be enabled and disabled in the block and page descriptors at 
 
 ## Disabling load faulting
 
-In a similar fashion to the loading of capabilities can generate a capability fault to prevent unauthorised access. The below table lists the registers and bits needed to disable faulting.
+In a similar fashion to the loading of capabilities can generate a capability fault to prevent unauthorised access. The below table lists the registers and bits needed to disable faulting. Once again, if stage 2 transation is disabled then you don't need to worry about VTCR_EL2.
 
 | Translation stage  | Register  | Bit  | Purpose | Value |
 |---|---|---|---|---|
