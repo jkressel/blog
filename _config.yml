@@ -31,6 +31,12 @@ github_username:  jkressel
 theme: minima
 plugins:
   - jekyll-feed
+ 
+ authors:
+  john_kressel:
+    name: John A. Kressel
+    email: john.kressel@postgrad.manchester.ac.uk
+    web: https://github.com/jkressel
 
 # Exclude from processing.
 # The following items will not be processed, by default.
