@@ -32,7 +32,7 @@ theme: minima
 plugins:
   - jekyll-feed
  
- authors:
+authors:
   john_kressel:
     name: John A. Kressel
     email: john.kressel@postgrad.manchester.ac.uk
