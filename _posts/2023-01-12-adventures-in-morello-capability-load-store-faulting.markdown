@@ -11,7 +11,7 @@ The Morello architecture controls access to capabilities in memory, with the abi
 
 ## Disabling store faulting
 
-Store faulting can be enabled and disabled in the block and page descriptors at stages 1 and 2 of translation. Specifically, we care here about 2 registers `TCR_ELx` for stage 1 translation and `VTCR_EL2` for stage 2. `x` corresponds to the relevant EL. If stage 2 transation is disabled then you don't need to worry about the latter register. The table below lists the registers that need to be considered for capability store faulting.
+Store faulting can be enabled and disabled in the block and page descriptors at stages 1 and 2 of translation. Specifically, we care here about 2 registers `TCR_ELx` for stage 1 translation and `VTCR_EL2` for stage 2. `x` corresponds to the relevant EL. If stage 2 translation is disabled then you don't need to worry about the latter register. The table below lists the registers that need to be considered for capability store faulting.
 
 | Translation stage  | Register  | Bit  | Purpose | Value |
 |---|---|---|---|---|
@@ -25,7 +25,7 @@ Store faulting can be enabled and disabled in the block and page descriptors at 
 
 ## Disabling load faulting
 
-In a similar fashion to the loading of capabilities can generate a capability fault to prevent unauthorised access. The below table lists the registers and bits needed to disable faulting. Once again, if stage 2 transation is disabled then you don't need to worry about VTCR_EL2.
+In a similar fashion to the loading of capabilities can generate a capability fault to prevent unauthorised access. The below table lists the registers and bits needed to disable faulting. Once again, if stage 2 translation is disabled then you don't need to worry about VTCR_EL2.
 
 | Translation stage  | Register  | Bit  | Purpose | Value |
 |---|---|---|---|---|
